@@ -1,0 +1,27 @@
+Data Type 
+
+Primitive Data Type
+1. boolean Type
+2. numric Type
+    a). character 
+        i). char
+    b). integral 
+      *)->Ineger
+        i).   byte 
+        ii).  short
+        iii). int
+        iv).  long
+      *)-> Floating Point
+        i). float
+        ii). double
+
+Non-Primitive Data Type
+1. Array Type
+2. Object Type
+3. Class Type
+4. Interface Type
+5. Enum Type
+6. Exception Type
+
+
+

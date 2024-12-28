@@ -1,0 +1,18 @@
+Java String valueOf()
+
+The String.valueOf() method in Java is a multipurpose static method. Its major function lies in the conversion of types of data, such as primitive types and objects, into strings. The technique provides an efficient and convenient way to construct string objects from different sources.
+
+public static String valueOf(boolean b)  
+public static String valueOf(char c)  
+public static String valueOf(char[] c)  
+public static String valueOf(int i)  
+public static String valueOf(long l)  
+public static String valueOf(float f)  
+public static String valueOf(double d)  
+public static String valueOf(Object o)  
+
+ex-
+
+public static String valueOf(Object obj) {  
+       return (obj == null) ? "null" : obj.toString();  
+   }  
