@@ -1,0 +1,39 @@
+The public access modifier is accessible everywhere. So, we can easily access the public inside and outside the class and package.
+If you are overriding any method, overridden method (i.e., declared in the subclass) must not be more restrictive. So, if you assign public to any method or variable, that method or variable can be overridden to sub-class using public access modifier only.
+If a program contains multiple classes, at most one class can be assigned as public.
+If a class contain a public class, the name of the program must be similar to the public class name.
+
+example
+------------
+class A {  
+  
+    public String msg="Try to access a public variable outside the class";  
+     String info;  
+     public void display()  
+     {  
+         System.out.println("Try to access a public method outside the class");  
+         System.out.println(info);  
+     }  
+       
+     public A(String info)  
+     {  
+         this.info=info;  
+     }  
+       
+}  
+  
+public class PublicExample1 {  
+    public static void main(String[] args) {  
+        A a=new A("Try to create the instance of public constructor outside the class");  
+       System.out.println(a.msg);  
+       a.display();  
+          
+    }  
+}  
+
+--------------
+Output:
+
+Try to access a public variable outside the class
+Try to access a public method outside the class
+Try to create the instance of public constructor outside the class

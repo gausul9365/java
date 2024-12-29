@@ -1,0 +1,5 @@
+The protected access modifier is accessible within the package. However, it can also accessible outside the package but through inheritance only.
+We can't assign protected to outer class and interface.
+If you make any constructor protected, you cannot create the instance of that class from outside the package.
+If you are overriding any method, overridden method (i.e., declared in the subclass) must not be more restrictive.
+According to the previous point, if you assign protected to any method or variable, that method or variable can be overridden to sub-class using public or protected access modifier only.
