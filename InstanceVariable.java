@@ -22,8 +22,8 @@ public class InstanceVariable{
 
   public static void main(String[] args) {
 
-    Variable v1 = new Variable("Gausul Wara",21);
-    Variable v2 = new Variable("Tanzeela Sami",21);
+    Variable v1 = new Variable("G W",21);
+    Variable v2 = new Variable("T S",21);
 
     v1.display();
     v2.display();
