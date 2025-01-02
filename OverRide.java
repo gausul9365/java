@@ -1,7 +1,6 @@
 
 class RBI {
 
- 
    void rateOfInterest(){
 
   System.out.println("Rate of interest nhi hona chahiye");
@@ -37,8 +36,8 @@ class SBI extends RBI{
 public class OverRide {
   public static void main(String[] args) {
 
-    SBI sbi = new SBI();
-    sbi.rateOfInterest();
+    RBI r = new SBI();
+    r.rateOfInterest();
     
     Axis axis = new Axis();
     axis.rateOfInterest();
