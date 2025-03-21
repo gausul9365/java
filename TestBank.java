@@ -1,6 +1,6 @@
 abstract class Bank{    
   abstract int getRateOfInterest();    
-  }    
+  }  
 
 
   class SBI extends Bank{  
