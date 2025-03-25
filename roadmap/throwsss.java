@@ -10,4 +10,5 @@ public class throwsss {
           System.out.println("Error: " + e.getMessage());
       }
   }
+  
 }
